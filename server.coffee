@@ -12,6 +12,10 @@ app.configure ->
 
 app.listen app.get('port'), ->
   console.log 'server listening on ' + app.get('port')
+
+app.get '/', (req,res) ->
+  res.send 'Zuller my Night'
+
 app.post '/search', (req, res) ->
   res.send zullerJSON
 app.get '/search', (req, res) ->
