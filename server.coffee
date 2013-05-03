@@ -20,55 +20,56 @@ app.get '/search', (req, res) ->
   res.send zullerJSON
 
 
-zullerJSON = [
-  {
-    "bar": {
-        "_id": "21931284150151458143",
-        "name": "Grega",
-        "logo": "url/gregaLogo",
-        "minAge": "20",
-        "address": {
-            "city": "Herzelia",
-            "street": "Harash",
-            "streetNumber": "1"
-        },
-        "date": {
-            "day": "14",
-            "month": "4",
-            "year": "2013"
-        },
-        "weight": "1",
-        "phoneNumber": "034124141",
-        "music": [
-            "main_stream",
-            "rock",
-            "israeli"
-        ]
+zullerJSON = 
+  "Attractions": [
+    {
+      "bar": {
+          "_id": "21931284150151458143",
+          "name": "Grega",
+          "logo": "url/gregaLogo",
+          "minAge": "20",
+          "address": {
+              "city": "Herzelia",
+              "street": "Harash",
+              "streetNumber": "1"
+          },
+          "date": {
+              "day": "14",
+              "month": "4",
+              "year": "2013"
+          },
+          "weight": "1",
+          "phoneNumber": "034124141",
+          "music": [
+              "main_stream",
+              "rock",
+              "israeli"
+          ]
+      }
+    },
+    {
+      "club": {
+          "_id": "21931284150151458143",
+          "name": "Clara",
+          "logo": "url/claraLogo",
+          "minAge": "22",
+          "address": {
+              "city": "Tel Aviv",
+              "street": "Kaufman",
+              "streetNumber": "1"
+          },
+          "date": {
+              "day": "22",
+              "month": "4",
+              "year": "2013"
+          },
+          "weight": "2",
+          "music": [
+              "main_stream",
+              "house",
+              "pop"
+          ],
+          "phoneNumber": "034124141"
+      }
     }
-  },
-  {
-    "club": {
-        "_id": "21931284150151458143",
-        "name": "Clara",
-        "logo": "url/claraLogo",
-        "minAge": "22",
-        "address": {
-            "city": "Tel Aviv",
-            "street": "Kaufman",
-            "streetNumber": "1"
-        },
-        "date": {
-            "day": "22",
-            "month": "4",
-            "year": "2013"
-        },
-        "weight": "2",
-        "music": [
-            "main_stream",
-            "house",
-            "pop"
-        ],
-        "phoneNumber": "034124141"
-    }
-  }
-]
+  ]
