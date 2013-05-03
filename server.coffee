@@ -72,4 +72,8 @@ zullerJSON =
           "phoneNumber": "034124141"
       }
     }
-  ]
+  ],
+  "User": {
+    "name": "Aram",
+    "isHomo": "YES"
+  }
