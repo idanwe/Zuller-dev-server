@@ -72,6 +72,31 @@ zullerJSON =
       }
     },
     {
+      "bar": {
+          "_id": "51498214311234938123",
+          "name": "Freinds",
+          "logo": "url/freindsLogo",
+          "minAge": "20",
+          "address": {
+              "city": "Tel Aviv Jaffa",
+              "street": "Dobnov",
+              "streetNumber": "18"
+          },
+          "date": {
+              "day": "22",
+              "month": "5",
+              "year": "2013"
+          },
+          "weight": "1",
+          "phoneNumber": "0356423222",
+          "music": [
+              "main_stream",
+              "rock",
+              "israeli"
+          ]
+      }
+    },
+    {
       "club": {
           "_id": "29876545124219856232",
           "name": "Clara",
@@ -94,6 +119,31 @@ zullerJSON =
               "pop"
           ],
           "phoneNumber": "034124141"
+      }
+    },
+    {
+      "club": {
+          "_id": "34526545124219856232",
+          "name": "Dizingof",
+          "logo": "url/dizingofLogo",
+          "minAge": "22",
+          "address": {
+              "city": "Tel Aviv",
+              "street": "Dizingof",
+              "streetNumber": "3"
+          },
+          "date": {
+              "day": "21",
+              "month": "5",
+              "year": "2013"
+          },
+          "weight": "2",
+          "music": [
+              "main_stream",
+              "house",
+              "pop"
+          ],
+          "phoneNumber": "036543211"
       }
     }
   ],
