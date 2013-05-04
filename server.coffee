@@ -48,8 +48,32 @@ zullerJSON =
       }
     },
     {
+      "bar": {
+          "_id": "51498214311234233254",
+          "name": "Margoza",
+          "logo": "url/margozaLogo",
+          "minAge": "20",
+          "address": {
+              "city": "Tel Aviv Jaffa",
+              "street": "Oley Ziun",
+              "streetNumber": "20"
+          },
+          "date": {
+              "day": "25",
+              "month": "5",
+              "year": "2013"
+          },
+          "weight": "3",
+          "phoneNumber": "030230322",
+          "music": [
+              "main_stream",
+              "folk rock"
+          ]
+      }
+    },
+    {
       "club": {
-          "_id": "21931284150151458143",
+          "_id": "29876545124219856232",
           "name": "Clara",
           "logo": "url/claraLogo",
           "minAge": "22",
